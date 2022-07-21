@@ -1,13 +1,18 @@
-import "./App.css";
+import "./App.scss";
 import { BsLightningFill } from "react-icons/bs";
+import { FaBluetoothB } from "react-icons/fa";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
+      <div className="App-icon">
         <BsLightningFill className="icon" />
-        React Icons
-      </header>
+        <p>React Icons</p>
+      </div>
+      <div className="App-icon">
+        <FaBluetoothB className="icon" />
+        <p>React Icons</p>
+      </div>
     </div>
   );
 }
