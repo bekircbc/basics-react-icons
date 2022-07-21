@@ -1,8 +1,26 @@
 body {
   background-color: navy;
   text-align: center;
-
   .App {
-    display: flex;
+    h1 {
+      color: white;
+    }
+    .icon-holder {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+
+      .App-icon {
+        padding: 2rem;
+        .icon {
+          font-size: 2rem;
+          color: white;
+        }
+        p {
+          color: white;
+          font-size: 2rem;
+        }
+      }
+    }
   }
 }

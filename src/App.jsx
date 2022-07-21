@@ -5,13 +5,16 @@ import { FaBluetoothB } from "react-icons/fa";
 function App() {
   return (
     <div className="App">
-      <div className="App-icon">
-        <BsLightningFill className="icon" />
-        <p>React Icons</p>
-      </div>
-      <div className="App-icon">
-        <FaBluetoothB className="icon" />
-        <p>React Icons</p>
+      <h1>React Icons</h1>
+      <div className="icon-holder">
+        <div className="App-icon">
+          <BsLightningFill className="icon" />
+          <p>BsLightningFil</p>
+        </div>
+        <div className="App-icon">
+          <FaBluetoothB className="icon" />
+          <p>FaBluetoothB</p>
+        </div>
       </div>
     </div>
   );
